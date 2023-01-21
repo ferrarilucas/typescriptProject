@@ -5,8 +5,13 @@ import { NegociacoesView } from "./views/negociacoes-view.js";
 const controller = new NegociacaoController()
 
 const form = document.querySelector(".form")
-form.addEventListener("submit", e => {
-    event.preventDefault();
-    controller.adiciona()
-})
+if(form){
+    form.addEventListener("submit", e => {
+        e.preventDefault();
+        controller.adiciona()
+    })
+}else{
+throw Error("FORM INEXISTENTE")
+
+}
 
