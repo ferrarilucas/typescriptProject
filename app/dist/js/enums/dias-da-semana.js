@@ -1,10 +1,11 @@
-export var DiasdaSemana;
-(function (DiasdaSemana) {
-    DiasdaSemana[DiasdaSemana["DOMINGO"] = 0] = "DOMINGO";
-    DiasdaSemana[DiasdaSemana["SEGUNDA"] = 1] = "SEGUNDA";
-    DiasdaSemana[DiasdaSemana["TERCA"] = 2] = "TERCA";
-    DiasdaSemana[DiasdaSemana["QUARTA"] = 3] = "QUARTA";
-    DiasdaSemana[DiasdaSemana["QUINTA"] = 4] = "QUINTA";
-    DiasdaSemana[DiasdaSemana["SEXTA"] = 5] = "SEXTA";
-    DiasdaSemana[DiasdaSemana["SABADO"] = 6] = "SABADO";
-})(DiasdaSemana || (DiasdaSemana = {}));
+export var DiasDaSemana;
+(function (DiasDaSemana) {
+    DiasDaSemana[DiasDaSemana["DOMINGO"] = 0] = "DOMINGO";
+    DiasDaSemana[DiasDaSemana["SEGUNDA"] = 1] = "SEGUNDA";
+    DiasDaSemana[DiasDaSemana["TERCA"] = 2] = "TERCA";
+    DiasDaSemana[DiasDaSemana["QUARTA"] = 3] = "QUARTA";
+    DiasDaSemana[DiasDaSemana["QUINTA"] = 4] = "QUINTA";
+    DiasDaSemana[DiasDaSemana["SEXTA"] = 5] = "SEXTA";
+    DiasDaSemana[DiasDaSemana["SABADO"] = 6] = "SABADO";
+})(DiasDaSemana || (DiasDaSemana = {}));
+//# sourceMappingURL=dias-da-semana.js.map
